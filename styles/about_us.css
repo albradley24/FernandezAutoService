@@ -1,0 +1,126 @@
+article, aside, figure, footer, header, nav, section 
+{
+       display: block;
+}
+
+html 
+{
+	background-image: url("../images/texturedMetal2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+body  
+{
+    	font-family: Verdana, Arial, Helvetica, sans-serif;
+    	width: 800px;
+    	background-color: white;
+    	margin: 0 auto; 
+    	border: 3px solid black;
+    	box-shadow: 0 9px 18px 9px;
+}	
+
+h1, h2, p, ul 
+{
+    	margin: 0;
+    	padding: 0;
+}
+
+    
+/* Navigation bar */
+nav 
+{
+	clear: left;
+	margin: 0;
+	background-color: black;
+}
+
+nav ul 
+{
+    	list-style: none;
+    	padding: 1em 0;
+    	text-align: center;
+    	border-top: 2px solid black;
+    	border-bottom: 2px solid black; 
+}
+
+nav li 
+{
+    	display: inline;
+    	padding: 1em 2em;
+	text-decoration: none;
+	color: #ffe401;
+	font-weight: bold;
+    	border-right: 3px solid white;
+	border-top: 3px solid white;
+}
+
+nav li:first-child
+{
+	border-left: 3px solid white;
+}
+
+nav li a 
+{
+	font-weight: bold;
+    	color: white;
+	text-decoration: none;
+}
+
+nav a.current 
+{ 
+	text-decoration: none;
+	color: grey;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+nav a:hover, nav a:focus 
+{ 
+    	color: #ffe401;;
+	text-decoration: underline;
+}
+
+
+/* Body */
+#about_us
+{
+    	text-align: center;
+    	padding: 15px;
+
+}
+
+body p
+{
+    	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+    	text-indent: 2em;
+}
+
+#img16, #img15 
+{
+    	border: 2px solid black;
+	margin-left: 13px;
+}  
+
+#img4, #miguel
+{
+	margin-right: 13px;
+}
+
+#img7,#img4,#img10, #miguel
+{
+	border: 2px solid black;
+} 
+
+
+/* Footer */
+footer
+{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	text-align: center;
+}
